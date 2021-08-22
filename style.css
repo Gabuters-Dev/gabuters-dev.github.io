@@ -1,0 +1,10 @@
+.jumbotron {
+  padding-top: 8rem;
+  background-image: url(img/bg-gabut.jpg);
+}
+section {
+  padding-top: 5rem;
+}
+#projects {
+  background-color: #198754;
+}
