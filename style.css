@@ -1,5 +1,7 @@
 .jumbotron {
   background: url(img/bg-gabut.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   padding-top: 8em;
 }
