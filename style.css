@@ -1,10 +1,32 @@
 .jumbotron {
-  padding-top: 8rem;
-  background-image: url(img/bg-gabut.jpg);
+  background: url(img/bg-gabut.jpg);
+  color: #fff;
+  padding-top: 8em;
 }
 section {
   padding-top: 5rem;
 }
 #projects {
-  background-color: #198754;
+}
+
+/* typewriter */
+.typewriter h1, h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* efek kursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+}
+
+/* efek typed-text */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
