@@ -1,10 +1,62 @@
 .jumbotron {
-  padding-top: 8rem;
-  background-image: url(img/bg-gabut.jpg);
+  background: url(img/bg-gabut.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 8em;
 }
 section {
   padding-top: 5rem;
 }
 #projects {
-  background-color: #198754;
+}
+
+/* typewriter */
+.typewriter h1, h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* efek kursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+}
+
+/* efek typed-text */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #aaa;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #aaa;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #aaa;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #aaa;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #aaa;
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+   background-color: #00C5BE;
+   border: none;
+   color: #fff;
+   font-size: 1em;
+   padding: 10px 50px;
+   text-transform: uppercase;
+   font-weight: normal;
 }
