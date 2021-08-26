@@ -109,47 +109,42 @@
   
   <!-- Contact-->
   <section id="contact">
-        <div class="row g-0">
-            <div class="col-lg-6 py-6 px-5">
-			<div class="box">
-			<div class="container">
-                <h1 class="display-5 mb-4">Contact Us</h1>
-                <form action="https://formspree.io/f/moqypojk" method="POST">
-                    <div class="row g-3">
-                        <div class="col-6">
-                            <div class="form-floating">
-                                <input required="required" type="text" name="name" class="form-control" id="form-floating-1" placeholder="">
-                                <label for="name form-floating-1">Your Name</label>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-floating">
-                                <input required="required" type="email" name="email" class="form-control" id="form-floating-2" placeholder="">
-                                <label for="email form-floating-2">Email address</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <input type="text" name="subject" class="form-control" id="form-floating-3" placeholder="">
-                                <label for="message form-floating-3">Subject (Optional)</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <textarea required="required" class="form-control" name="message" placeholder="" id="form-floating-4" style="height: 150px"></textarea>
-                                <label for="message form-floating-4">Message</label>
-                              </div>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3 bg-success" type="submit">Submit</button>
-                        </form>
-			    <hr>
-                    </div>
-                </div>
-            </div>
-  </section>
-  <!--Akhir Contact -->
+  <div class="page-section">
+    <div class="container">
+      <div class="row text-center mb-3" >
+              <div class="col" >
+                  <h2>Contact Us</h2>
+              </div>
+          </div>
 
+      <form class="contact-form mt-5" action="https://formspree.io/f/moqypojk" method="POST">
+        <div class="row mb-3">
+          <div class="col-sm-6 py-2 wow fadeInLeft">
+            <label for="fullName">Name</label>
+            <input required name="name" type="text" id="fullName" class="form-control" placeholder="Full name..">
+          </div>
+          <div class="col-sm-6 py-2 wow fadeInRight">
+            <label for="emailAddress">Email</label>
+            <input required name="email" type="text" id="emailAddress" class="form-control" placeholder="Email address..">
+          </div>
+          <div class="col-12 py-2 wow fadeInUp">
+            <label for="subject">Subject</label>
+            <input name="subject" type="text" id="subject" class="form-control" placeholder="Enter subject..">
+          </div>
+          <div class="col-12 py-2 wow fadeInUp">
+            <label for="message">Message</label>
+            <textarea required name="message" id="message" class="form-control" rows="8" placeholder="Enter Message.."></textarea>
+          </div>
+        </div>
+		<div class="text-center">
+        <button class="btn btn-primary w-100 py-3 bg-success" type="submit">Submit</button>
+		</form>
+      </div>
+    </div>
+  </div>
+	</section>
+  <!--Akhir Contact -->
+<h1>  </h1>
   <!-- Footer -->
   <footer class="bg-success text-white text-center fs-5 p-3">
     <p>Created by Gabuters-dev</p>
